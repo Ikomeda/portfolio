@@ -1,0 +1,42 @@
+header {
+    background: pink;  
+}
+header h1 {
+    display: inline-block;
+    /* wrap: wrap;
+    align-items: center; */
+    margin-bottom: 8px;
+    border-bottom: 2px solid black; 
+}
+header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.additional-links {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 25px;
+}
+#pfp {
+    height: 200px;
+    width: auto;
+    /* margin-bottom: 2px; */
+}
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("https://c.tenor.com/O7VpB5FK5OgAAAAC/my-love-story-kiss.gif");
+    background-size: cover;
+    background-position: center;
+}
+.imgs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1rem;
+    width: 100px;
+    height: auto;
+}
