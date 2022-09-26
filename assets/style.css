@@ -1,5 +1,5 @@
 header {
-    background: pink;  
+    background: rgba(126, 107, 119, 0.75);  
 }
 header h1 {
     display: inline-block;
@@ -8,6 +8,35 @@ header h1 {
     margin-bottom: 8px;
     border-bottom: 2px solid black; 
 }
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/20210703_072421.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.hero-img {
+    height: 200px;
+    width: auto;
+    margin: 20px 35px 20px 20px;
+    /* margin-bottom: 2px; */
+}
+.hero-inner {
+    /* opacity: 1; */
+    display: flex;
+    margin: 30px 0 30px 60px;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgba(126, 107, 119, 0.75), rgba(14, 53, 5, 0.75));
+    border: solid 3px var(--verydarkblue);
+    border-radius: 10px;
+    height: min-content;
+}
+    
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -15,22 +44,10 @@ header section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-.additional-links {
+.links {
     list-style: none;
     display: inline-flex;
     margin-left: 25px;
-}
-#pfp {
-    height: 200px;
-    width: auto;
-    /* margin-bottom: 2px; */
-}
-.hero {
-    height: 800px;
-    width: 100%;
-    background-image: url("https://c.tenor.com/O7VpB5FK5OgAAAAC/my-love-story-kiss.gif");
-    background-size: cover;
-    background-position: center;
 }
 .imgs {
     display: inline-flex;
