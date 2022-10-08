@@ -51,23 +51,24 @@ footer h2 {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100%;
-}
-.hero-img {
-    height: 400px;
-    width: auto;
-    margin: 20px 35px 20px 20px;
+    width: 100vw;
 }
 .hero-inner {
     display: flex;
     margin: 30px 0 30px 60px;
     justify-content: center;
-    width: 50%;
+    width: 50vw;
     align-items: center;
     background-image: linear-gradient(45deg, rgba(126, 107, 119, 0.75), rgba(14, 53, 5, 0.75));
     border: solid 3px var(--verydarkblue);
     border-radius: 10px;
     height: min-content;
+}
+.hero-img {
+    display: flex;
+    height: 40vh;
+    width: auto;
+    margin: 20px 35px 20px 20px;
 }
     
 .project-container {
@@ -80,15 +81,12 @@ footer h2 {
 .project-center {
     text-align: center;
 }
-h3 {
-    
-}
 .pro1 {
     border: 10px solid black;
     position: relative;
     display: flex;
-    height: 400px;
-    width: 800px;
+    height: 40vh;
+    width: 85vw;
     background-image: url("https://c.tenor.com/gQV5VzHLWQIAAAAd/among-us-sus.gif");
     background-size: cover;
     margin: 10px 20px;
@@ -98,8 +96,8 @@ h3 {
     position: relative;
     display: flex;
     flex-direction: row;
-    height: 400px;
-    width: 400px;
+    height: 40vh;
+    width: 40vw;
     background-image: url("https://c.tenor.com/gQV5VzHLWQIAAAAd/among-us-sus.gif");
     background-size: cover;
     margin: 10px 20px;
@@ -109,8 +107,8 @@ h3 {
     position: relative;
     display: flex;
     flex-direction: row;
-    height: 400px;
-    width: 400px;
+    height: 40vh;
+    width: 40vw;
     background-image: url(./images/screenshot.png);
     background-size: cover;
     margin: 10px 20px;
@@ -143,4 +141,10 @@ h3 {
     margin: 1rem;
     width: 500px;
     height: auto;
+}
+@media all and (max-width: 768px) {
+.pro2 {height: 40vh; width: 85vw;}
+.pro3 {height: 40vh; width: 85vw;}
+.hero-inner {height: 75vh; width: 50vw; flex-direction: column; }
+.hero-text {text-align: center;}
 }
